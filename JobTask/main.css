@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, #8E53E4, #4B22B9);
+}
+body .container {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+body .container .full-body {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+body .container .full-body .nav-part {
+  background-color: #292D32;
+  width: 230px;
+  height: 460px;
+}
+body .container .full-body .nav-part ul {
+  top: 2px;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+body .container .full-body .nav-part ul li {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  margin-top: 20px;
+  color: #626C76;
+}
+body .container .full-body .nav-part ul li span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #4D545A;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+body .container .full-body .nav-part ul li .active {
+  background-color: #53D56C;
+}
+body .container .full-body .content {
+  position: relative;
+  width: 980px;
+  height: 460px;
+  background: #F5F7FA;
+  box-shadow: 0px 5px 40px 5px rgba(112, 119, 125, 0.2509803922);
+}
+body .container .full-body .content .container-content {
+  margin: 1rem 2rem 1rem 2rem;
+}
+body .container .full-body .content .container-content .content-header {
+  display: flex;
+  justify-content: space-between;
+}
+body .container .full-body .content .container-content .content-header .content-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #292D32;
+}
+body .container .full-body .content .container-content .content-header .x-btn button {
+  color: #ADBFC7;
+  background: none;
+  border: none;
+  font-size: 25px;
+  font-weight: 500;
+}
+body .container .full-body .content .container-content .home-page-contents .doctors, body .container .full-body .content .container-content .home-page-contents .services {
+  margin-top: 2rem;
+}
+body .container .full-body .content .container-content .home-page-contents .doctors .doctor-box, body .container .full-body .content .container-content .home-page-contents .doctors .service-box, body .container .full-body .content .container-content .home-page-contents .services .doctor-box, body .container .full-body .content .container-content .home-page-contents .services .service-box {
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 10px;
+  align-items: center;
+}
+body .container .full-body .content .container-content .home-page-contents .doctors .doctor-box .profil-img, body .container .full-body .content .container-content .home-page-contents .doctors .service-box .profil-img, body .container .full-body .content .container-content .home-page-contents .services .doctor-box .profil-img, body .container .full-body .content .container-content .home-page-contents .services .service-box .profil-img {
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .container .full-body .content .container-content .home-page-contents .doctors .doctor-box .description, body .container .full-body .content .container-content .home-page-contents .doctors .service-box .description, body .container .full-body .content .container-content .home-page-contents .services .doctor-box .description, body .container .full-body .content .container-content .home-page-contents .services .service-box .description {
+  margin-left: 2rem;
+}
+body .container .full-body .content .container-content .home-page-contents .doctors .doctor-box .description .doc-name, body .container .full-body .content .container-content .home-page-contents .doctors .service-box .description .doc-name, body .container .full-body .content .container-content .home-page-contents .services .doctor-box .description .doc-name, body .container .full-body .content .container-content .home-page-contents .services .service-box .description .doc-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+body .container .full-body .content .container-content .home-page-contents .doctors .doctor-box .description .doc-mail, body .container .full-body .content .container-content .home-page-contents .doctors .service-box .description .doc-mail, body .container .full-body .content .container-content .home-page-contents .services .doctor-box .description .doc-mail, body .container .full-body .content .container-content .home-page-contents .services .service-box .description .doc-mail {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+body .container .full-body .content .container-content .home-page-contents .doctors .price, body .container .full-body .content .container-content .home-page-contents .services .price {
+  color: #53D56C;
+  margin: auto;
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+body .container .full-body .content .container-content .home-page-contents .confirmation .confirm-inputs {
+  margin-top: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+body .container .full-body .content .container-content .home-page-contents .confirmation .confirm-inputs .input-one {
+  width: 45%;
+  margin-top: 1rem;
+}
+body .container .full-body .content .container-content .home-page-contents .confirmation .confirm-inputs .input-one .write {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: linear-gradient(0deg, #292D32, #292D32);
+}
+body .container .full-body .content .container-content .home-page-contents .confirmation .confirm-inputs .input-one .write .star {
+  color: red;
+}
+body .container .full-body .content .container-content .home-page-contents .confirmation .confirm-inputs .input-one .inp {
+  width: 250px;
+  height: 30px;
+  top: 348px;
+  left: 490px;
+  border: 1px solid #E3EAF3;
+  background: linear-gradient(0deg, #E3EAF3, #E3EAF3), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+}
+body .container .full-body .content .container-content .home-page-contents .confirmation .informations {
+  width: 690px;
+  height: 140px;
+  top: 30px;
+  border: 1px;
+  background: linear-gradient(0deg, #E3EAF3, #E3EAF3), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  width: 100%;
+  padding: 1.5rem;
+}
+body .container .full-body .content .container-content .home-page-contents .confirmation .informations p {
+  color: #6C70DC;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+body .container .full-body .content .container-content .home-page-contents .confirmation .informations p span {
+  color: #292D32;
+}
+body .container .full-body .content .container-content .footer-btns .next-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+}
+body .container .full-body .content .container-content .footer-btns .prev-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+}
+body .container .full-body .content .container-content .footer-btns .prev-btn button {
+  width: Hug 59px;
+  height: Hug 36px;
+  top: 504px;
+  left: 891px;
+  padding: 9px 14px 9px 14px;
+  border-radius: 2px;
+  gap: 10px;
+  color: #ADBFC7;
+  border: none;
+  font-size: 20px;
+  background: none;
+}
+body .container .full-body .content .container-content .footer-btns .next-btn button {
+  background-color: #6C70DC;
+  width: Hug 59px;
+  height: Hug 36px;
+  top: 504px;
+  left: 891px;
+  padding: 9px 14px 9px 14px;
+  border-radius: 2px;
+  gap: 10px;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+.selected {
+  border: 3px solid #53D56C;
+}/*# sourceMappingURL=main.css.map */
+
+.selected-service {
+  border: 3px solid #53D56C;
+}/*# sourceMappingURL=main.css.map */
+
+.display-block{
+  display: block !important;
+}
+
+.display-none{
+  display: none !important;
+}
